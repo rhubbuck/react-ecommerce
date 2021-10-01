@@ -34,10 +34,14 @@ export default makeStyles ((theme) => ({
         }
       },
       sidebarList: {
-        margin: '45px 50px 0 50px'
+        padding: '45px 50px 0 50px',
+       
       },
       listItem: {
-        margin: '30px 0 30px 0'
+        margin: '30px 0 30px 0',
+        paddingBottom: '.5rem',
+        borderBottom: '2px solid black',
+        fontSize: '1rem'
       },
       title: {
         flexGrow: 1,

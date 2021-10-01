@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@material-ui/core';
+import { Typography, Button, Card, CardActions, CardContent } from '@material-ui/core';
 
 import useStyles from './styles';
 
@@ -9,7 +9,6 @@ const CartItem = ({item, handleUpdateCartQty, handleRemoveFromCart}) => {
 
     return (
        <Card>
-           <CardMedia />
            <CardContent className={classes.cardContent}>
                <Typography variant="h6">{item.name}</Typography>
                <Typography variant="h6">{item.line_total.formatted_with_symbol}</Typography>

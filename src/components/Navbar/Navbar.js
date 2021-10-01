@@ -20,9 +20,9 @@ const Navbar = ({totalItems}) => {
     const list = () => (
         <div>
             <List className={classes.sidebarList}>
-                <ListItem component={Link} to="/beds" button className={classes.listItem} onClick={toggleDrawer(false)}>Beds</ListItem>
-                <ListItem component={Link} to="/toys" button className={classes.listItem} onClick={toggleDrawer(false)}>Toys</ListItem>
-                <ListItem component={Link} to="/bowls" button className={classes.listItem} onClick={toggleDrawer(false)}>Bowls</ListItem>
+                <ListItem component={Link} to="/beds" button className={classes.listItem} onClick={toggleDrawer(false)}>BEDS</ListItem>
+                <ListItem component={Link} to="/toys" button className={classes.listItem} onClick={toggleDrawer(false)}>TOYS</ListItem>
+                <ListItem component={Link} to="/bowls" button className={classes.listItem} onClick={toggleDrawer(false)}>BOWLS</ListItem>
             </List>
         </div>
     )
@@ -46,6 +46,7 @@ const Navbar = ({totalItems}) => {
                             anchor={"left"}
                             open={state}
                             onClose={toggleDrawer(false)}
+                            className={classes.drawer}
                         >
                             {list()}
                         </Drawer>
