@@ -8,6 +8,9 @@ export default makeStyles(() => ({
       padding: '0 3vw 10px',
       color: 'white'
   },
+  title: {
+    fontFamily: 'Paytone One, sans-serif'
+  },
   footerText: {
     cursor: 'pointer'
   },

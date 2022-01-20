@@ -5,16 +5,20 @@ export default makeStyles ((theme) => ({
     root: {
         flexGrow: 1,
       },
-      svg: {
-        height: '50px',
-        marginLeft: '10px'
-      },
       barWrap: {
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        margin: '0 44px',
+        [theme.breakpoints.down('sm')]: {
+          margin: '0 12px'
+        }
         },
       appbarWrapper: {
-        height: '90px',
-        backgroundColor: 'black'
+        height: '80px',
+        backgroundColor: '#fff',
+        position: 'fixed'
+      },
+      titleWrapper: {
+        display: 'flex'
       },
       barDivider: {
         display: 'flex',
@@ -22,13 +26,23 @@ export default makeStyles ((theme) => ({
         alignItems: 'center'
       },
       shoppingCart: {
+        color: '#00ded3',
+        width: '248px',
+        '&:hover': {
+          backgroundColor: '#fff',
+        },
         [theme.breakpoints.down('md')]: {
           paddingRight: '0',
           marginRight: '0'
+      },
+      [theme.breakpoints.down('sm')]: {
+        width: '30px',
+        // marginLeft: '30px'
       }
       },
       menuButton: {
         marginRight: theme.spacing(2),
+        color: '#000',
         [theme.breakpoints.up('md')]: {
             display: 'none'
         }
@@ -46,14 +60,22 @@ export default makeStyles ((theme) => ({
       title: {
         flexGrow: 1,
         textDecoration: 'none',
-        color: 'white',
+        fontFamily: 'Paytone One, sans-serif',
+        color: '#000',
         display: 'none',
+        fontSize: '64px',
         [theme.breakpoints.up('xs')]: {
           display: 'block',
           overflow: 'visible',
-          fontSize: '26px',
-          maxWidth: '30%'
         },
+        [theme.breakpoints.down('md')]: {
+          fontSize: '54px',
+          marginLeft: '110px'
+        },
+        [theme.breakpoints.down('md')]: {
+          margin: '0',
+          fontSize: '40px'
+        }
       },
       search: {
         height: '35px',
@@ -85,7 +107,7 @@ export default makeStyles ((theme) => ({
       },
       buttons: {
         display: 'flex',
-        width: '30vw',
+        // width: '30vw',
         justifyContent: 'space-around',
         [theme.breakpoints.down('md')]: {
           paddingRight: '5px',

@@ -7,7 +7,7 @@ const Toys = ({toyProducts, onAddToCart}) => {
     const classes = useStyles();
 
     return (
-        <main>
+        <main className={classes.toysContainer}>
         <Typography variant="h3" className={classes.title}>Toys</Typography>
         <Box p={2} className={classes.gridContainer}>
             <Grid container justifyContent="center" spacing={4} alignItems="center">

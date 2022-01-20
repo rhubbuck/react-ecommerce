@@ -114,7 +114,7 @@ const App = () => {
                         <Switch>
                             <Route exact path="/">
                                 <Intro />
-                                <TitleNav />
+                                {/* <TitleNav /> */}
                                 <Products products={products} onAddToCart={handleAddToCart}/>
                                 <Info />
                                 <Footer />

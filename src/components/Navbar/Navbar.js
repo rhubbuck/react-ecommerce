@@ -39,8 +39,8 @@ const Navbar = ({totalItems}) => {
                             color="inherit"
                             aria-label="open drawer"  
                             onClick={toggleDrawer(true)}  
-                        >
-                        <MenuIcon />
+                            >
+                            <MenuIcon />
                         </IconButton>
                         <Drawer
                             anchor={"left"}
@@ -50,17 +50,16 @@ const Navbar = ({totalItems}) => {
                         >
                             {list()}
                         </Drawer>
-                        <Typography className={classes.title} variant="h4" noWrap component={Link} to="/">
-                        PupExpress
-                        </Typography>
-                        <img className={classes.svg} src="./images/Undraw.svg" alt="Dog Logo"/>
-                    </div>
-                    <div className={classes.buttons}>
-                       
-                       {location.pathname === '/' || location.pathname === '/toys' || location.pathname === '/beds' || location.pathname === '/bowls' ? (
+                        {location.pathname === '/' || location.pathname === '/toys' || location.pathname === '/beds' || location.pathname === '/bowls' ? (
                         <TitleNav />
                        ) : null}
-
+                    </div>
+                    <div className={classes.titleWrapper}>
+                        <Typography className={classes.title} variant="h4" noWrap component={Link} to="/">
+                            PupExpress
+                        </Typography>
+                    </div>
+                    <div className={classes.buttons}>
                       { location.pathname === '/' || location.pathname === '/toys' || location.pathname === '/beds' || location.pathname === '/bowls' ? (
                         <IconButton className={classes.shoppingCart} color="inherit" component={Link} to="/cart" aria-label="Show cart items">
                             <Badge badgeContent={totalItems} color="secondary" >

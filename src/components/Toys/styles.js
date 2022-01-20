@@ -6,6 +6,9 @@ export default makeStyles(() => ({
         paddingBottom: '5vh',
         fontWeight: 'bold'
     },
+    toysContainer: {
+        paddingTop: '80px'
+    },
     gridContainer: {
         padding: '0 5vw 5vh'
     }

@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'space-between',
-      width: '30%',
+      width: '200px'
   },
   titleNavContainer: {
       justifyContent: 'center',
@@ -17,6 +17,13 @@ export default makeStyles((theme) => ({
   }
   },
   text: {
-    color: 'white'
+    color: '#000',
+    fontSize: '16px',
+    fontWeight: '600',
+    borderRadius: '0px',
+    '&:hover': {
+      borderBottom: '2px solid red',
+      backgroundColor: '#fff'
+    }
   }
 }));

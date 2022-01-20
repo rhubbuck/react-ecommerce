@@ -1,0 +1,64 @@
+.intro-wrapper {
+  height: 650px;
+  background-image: url("../../Images/tom-hills.jpg");
+  object-fit: cover;
+  background-size: cover;
+  margin-bottom: 65px;
+}
+
+.intro-text {
+  color: #111;
+  padding-top: 250px;
+  font-size: 34px;
+  padding-left: 100px;
+  font-weight: 400;
+}
+
+.intro-text-line1,
+.intro-text-line2 {
+  padding: 0;
+  margin: 0;
+}
+
+.intro-text-line2 {
+  padding-left: 40px;
+}
+
+.intro-button {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 0.5rem 2rem;
+  margin-right: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-size: 16px;
+  margin-left: 245px;
+}
+
+.intro-button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 426px) {
+  .intro-wrapper {
+    /* height: 80vh; */
+    background-image: url("../../Images/dex-ezekiel-GUqczWy1bns-unsplash.jpg");
+    background-position: top;
+  }
+
+  .intro-button {
+    margin-left: 120px;
+  }
+
+  .intro-text {
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 330px;
+    font-weight: 600;
+  }
+}

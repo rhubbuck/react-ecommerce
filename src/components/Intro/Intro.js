@@ -1,29 +1,20 @@
 import React from 'react';
-import useStyles from './styles';
+import './Intro.css'
 
 const Intro = () => {
-    const classes = useStyles();
+
+    const handleClick = () => {
+        window[`scrollTo`]({top:600, behavior:`smooth`})
+    }
     
-    return (
-        <div className={classes.outerWrapper}>
-            <div className={classes.titleWrapper}>
-                <h1 className={classes.headTitle}>PupExpress</h1>
+    return (   
+        <div className='intro-wrapper'>
+            <div className='intro-text'>
+                <p className='intro-text-line1'>Handmade goods</p>
+                <p className='intro-text-line2'>for all your pet's needs</p>
+                <button className='intro-button' onClick={handleClick}>Shop Now</button>
             </div>
-            <div className={classes.outerImageContainer}>
-                <div className={classes.altImageContainer}>
-                    <img className={classes.altImage} src="./images/dogImageThree.jpg" alt="Dog"/>
-                </div>
-                <div className={classes.imageContainer}>
-                    <img className={classes.mainImage} src="./images/dogImageThree.jpg" alt="Dog"/>
-                </div>
-                <div className={classes.imageContainer}>
-                    <img className={classes.mainImage} src="./images/dachshund.jpg" alt="Dog"/>
-                </div>
-                <div className={classes.imageContainer}>
-                    <img className={classes.mainImage} src="./images/dogsImage.jpg" alt="Two dogs." />
-                </div>
-            </div>
-        </div>        
+        </div>
     )
 }
 

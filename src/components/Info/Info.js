@@ -8,7 +8,6 @@ const Info = () => {
         <>
             <div className={classes.infoWrapper}>
                 <Typography variant="h4" className={classes.infoCard}>All materials are ethically sourced</Typography>
-                <Typography variant="h4" className={classes.infoCard}>Products never tested on animals</Typography>
                 <Typography variant="h4" className={classes.infoCard}>Support local businesses</Typography>
                 <Typography variant="h4" className={classes.infoCard}>100% satisfaction guaranteed - free refunds</Typography>
             </div>
