@@ -8,7 +8,7 @@ const Products = ({products, onAddToCart}) => {
     const classes = useStyles();
     return (
         <main>
-            <Typography variant="h3" className={classes.mainTitle}>Our Products</Typography>
+            <Typography variant="h2" className={classes.mainTitle}>Our Products</Typography>
             <Box p={2} className={classes.gridContainer}>
                 <Grid container justifyContent="center" spacing={4} alignItems="center">
                     {products.map((product) => (

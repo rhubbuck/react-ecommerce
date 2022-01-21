@@ -10,9 +10,18 @@ export default makeStyles(() => ({
         objectFit: 'contain',
         objectSize: 'cover'
     },
+    name: {
+        fontFamily: 'Poiret One, cursive',
+        fontWeight: '600'
+    },
     cardActions: {
         display: 'flex',
         justifyContent: 'flex-end',
+    },
+    price: {
+        color: 'red',
+        fontFamily: 'Poiret One, cursive',
+        fontWeight: '600'
     },
     cardContent: {
         display: 'flex',
@@ -22,9 +31,11 @@ export default makeStyles(() => ({
     bottomContent: {
         display: 'flex',
         justifyContent: 'space-between',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        fontFamily: 'Poiret One, cursive'
     },
     bottomText: {
-        height: '100px'
+        height: '100px',
+        fontFamily: 'Poiret One, cursive'
     }
 }))

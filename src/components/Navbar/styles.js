@@ -37,7 +37,6 @@ export default makeStyles ((theme) => ({
       },
       [theme.breakpoints.down('sm')]: {
         width: '30px',
-        // marginLeft: '30px'
       }
       },
       menuButton: {

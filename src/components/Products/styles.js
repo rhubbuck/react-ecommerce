@@ -12,7 +12,8 @@ export default makeStyles(() => ({
     },
     mainTitle: {
         textAlign: 'center',
-        marginBottom: '2rem'
+        marginBottom: '2rem',
+        fontFamily: 'Poiret One, cursive'
     }
 }
 ))

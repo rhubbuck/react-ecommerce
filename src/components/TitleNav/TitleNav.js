@@ -1,5 +1,5 @@
 import React from 'react';
-import {Toolbar, Button} from '@material-ui/core';
+import {Toolbar, Typography} from '@material-ui/core';
 import useStyles from './styles';
 import { Link } from 'react-router-dom';
 
@@ -12,9 +12,9 @@ const TitleNav = () => {
         <>
             <Toolbar className={classes.titleNavContainer}>
                 <div className={classes.titleNavWrapper}>
-                    <Button className={classes.text} component={Link} to='/beds'>Beds</Button>
-                    <Button className={classes.text} component={Link} to='/toys'>Toys</Button>
-                    <Button className={classes.text} component={Link} to='/bowls'>Bowls</Button>
+                    <Typography className={classes.button} component={Link} to='/beds'>BEDS</Typography>
+                    <Typography className={classes.button} component={Link} to='/toys'>TOYS</Typography>
+                    <Typography className={classes.button} component={Link} to='/bowls'>BOWLS</Typography>
                 </div>
             </Toolbar>   
         </>

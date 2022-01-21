@@ -10,7 +10,8 @@ export default makeStyles(() => ({
   infoCard: {
       padding: '2em',
       textAlign: 'center',
-      borderBottom: '2px solid black'
+      borderBottom: '3px solid #00ded3',
+      fontFamily: 'Poiret One, cursive'
   }
 }
 ))

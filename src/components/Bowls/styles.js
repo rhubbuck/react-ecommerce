@@ -4,7 +4,8 @@ export default makeStyles(() => ({
     title: {
         paddingLeft: '15vw',
         paddingBottom: '5vh',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontFamily: 'Poiret One, cursive'
     },
     bowlContainer: {
         paddingTop: '80px'

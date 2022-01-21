@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'space-between',
-      width: '200px'
+      width: '220px'
   },
   titleNavContainer: {
       justifyContent: 'center',
@@ -16,11 +16,15 @@ export default makeStyles((theme) => ({
       marginRight: '50px'
   }
   },
-  text: {
+  button: {
     color: '#000',
-    fontSize: '16px',
+    fontSize: '20px',
     fontWeight: '600',
+    letterSpacing: '2px',
+    textDecoration: 'none',
+    fontFamily: 'Poiret One, cursive',
     borderRadius: '0px',
+    textTransform: 'none',
     '&:hover': {
       borderBottom: '2px solid red',
       backgroundColor: '#fff'

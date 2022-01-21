@@ -9,15 +9,17 @@
 .intro-text {
   color: #111;
   padding-top: 250px;
-  font-size: 34px;
+  font-size: 40px;
   padding-left: 100px;
   font-weight: 400;
+  font-family: "Baloo 2", cursive;
 }
 
 .intro-text-line1,
 .intro-text-line2 {
   padding: 0;
   margin: 0;
+  font-family: "Baloo 2", cursive;
 }
 
 .intro-text-line2 {
@@ -40,8 +42,14 @@
 
 .intro-button:hover {
   color: #000;
-  background-color: #e6e6e6;
+  background-color: #ececec;
   transition: all 0.2s;
+}
+
+@media only screen and (max-width: 769px) {
+  .intro-text {
+    padding-left: 60px;
+  }
 }
 
 @media only screen and (max-width: 426px) {
