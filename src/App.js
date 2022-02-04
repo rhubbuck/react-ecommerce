@@ -4,7 +4,7 @@ import Products from './components/Products/Products';
 import Navbar from './components/Navbar/Navbar';
 import { CssBaseline } from '@material-ui/core';
 import Cart from './components/Cart/Cart';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import TitleNav from './components/TitleNav/TitleNav';
 import Checkout from './components/Checkout/Checkout';
@@ -107,7 +107,7 @@ const App = () => {
 
 
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="/react-ecommerce">
             <div>
                 <CssBaseline >
                     <Navbar totalItems={cart.total_items} /> 
