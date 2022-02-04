@@ -20,10 +20,10 @@ const Footer = () => {
                     <List className={classes.logos}>
                         <ListItem>
                         <Grid container>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./images/facebook.svg" alt="Facebook" /></Grid>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./images/instagram.svg" alt="Instagram" /></Grid>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./images/twitter.svg" alt="Twitter" /></Grid>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./images/youtube.svg" alt="Youtube" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/facebook.svg" alt="Facebook" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/instagram.svg" alt="Instagram" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/twitter.svg" alt="Twitter" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/youtube.svg" alt="Youtube" /></Grid>
                         </Grid>
                         </ListItem>
                     </List>
