@@ -1,6 +1,10 @@
 import React from 'react';
 import {Toolbar, Typography, Grid, List, ListItem, Box} from '@material-ui/core';
 import useStyles from './styles';
+import youtube from '../../Images/youtube.svg';
+import facebook from '../../Images/facebook.svg';
+import twitter from '../../Images/twitter.svg';
+import instagram from '../../Images/instagram.svg';
 
 const Footer = () => {
     const classes = useStyles();
@@ -20,10 +24,10 @@ const Footer = () => {
                     <List className={classes.logos}>
                         <ListItem>
                         <Grid container>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/facebook.svg" alt="Facebook" /></Grid>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/instagram.svg" alt="Instagram" /></Grid>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/twitter.svg" alt="Twitter" /></Grid>
-                            <Grid item sm={3} xs={6}><img className={classes.social}src="./Images/youtube.svg" alt="Youtube" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social} src={facebook} alt="Facebook" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social} src={instagram} alt="Instagram" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social} src={twitter} alt="Twitter" /></Grid>
+                            <Grid item sm={3} xs={6}><img className={classes.social} src={youtube} alt="Youtube" /></Grid>
                         </Grid>
                         </ListItem>
                     </List>
