@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-ecommerce/static/css/main.8459e38d.chunk.css",
-    "main.js": "/react-ecommerce/static/js/main.291d60c5.chunk.js",
-    "main.js.map": "/react-ecommerce/static/js/main.291d60c5.chunk.js.map",
+    "main.js": "/react-ecommerce/static/js/main.680b3ade.chunk.js",
+    "main.js.map": "/react-ecommerce/static/js/main.680b3ade.chunk.js.map",
     "runtime-main.js": "/react-ecommerce/static/js/runtime-main.320fc5d7.js",
     "runtime-main.js.map": "/react-ecommerce/static/js/runtime-main.320fc5d7.js.map",
     "static/js/2.446dc96b.chunk.js": "/react-ecommerce/static/js/2.446dc96b.chunk.js",
@@ -10,12 +10,16 @@
     "index.html": "/react-ecommerce/index.html",
     "static/css/main.8459e38d.chunk.css.map": "/react-ecommerce/static/css/main.8459e38d.chunk.css.map",
     "static/js/2.446dc96b.chunk.js.LICENSE.txt": "/react-ecommerce/static/js/2.446dc96b.chunk.js.LICENSE.txt",
-    "static/media/Intro.css": "/react-ecommerce/static/media/tom-hills.9579d535.jpg"
+    "static/media/Intro.css": "/react-ecommerce/static/media/tom-hills.9579d535.jpg",
+    "static/media/facebook.a6ee2491.svg": "/react-ecommerce/static/media/facebook.a6ee2491.svg",
+    "static/media/instagram.024b2096.svg": "/react-ecommerce/static/media/instagram.024b2096.svg",
+    "static/media/twitter.3774c400.svg": "/react-ecommerce/static/media/twitter.3774c400.svg",
+    "static/media/youtube.d3bfb20e.svg": "/react-ecommerce/static/media/youtube.d3bfb20e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.320fc5d7.js",
     "static/js/2.446dc96b.chunk.js",
     "static/css/main.8459e38d.chunk.css",
-    "static/js/main.291d60c5.chunk.js"
+    "static/js/main.680b3ade.chunk.js"
   ]
 }
